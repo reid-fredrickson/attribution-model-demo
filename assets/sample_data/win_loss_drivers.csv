@@ -1,0 +1,32 @@
+-- By Campaign --
+Campaign_Name,Won_Presence_Rate,Lost_Presence_Rate,Gap,Won_Count,Lost_Count
+Flexible Warehousing 101 Webinar,1.0,0.138,0.862,11,4
+On-Demand Warehousing ROI Calculator,1.0,0.138,0.862,11,4
+Demo Request Landing Page,1.0,0.207,0.793,11,6
+ABM Direct Mail - Enterprise DTC,0.545,0.172,0.373,6,5
+MODEX Trade Show,0.455,0.138,0.317,5,4
+Google Search - Warehousing Non-Brand,0.455,0.138,0.317,5,4
+Peak Season Playbook Download,0.455,0.138,0.317,5,4
+Analyst Report Syndication (Gartner),0.455,0.207,0.248,5,6
+Partner Referral - 3PL Network,0.364,0.138,0.226,4,4
+Case Study: Enterprise Overflow Program,0.364,0.241,0.122,4,7
+Spot Warehousing Index Report,0.182,0.138,0.044,2,4
+Q3 Email Nurture - Overflow Storage,0.182,0.172,0.009,2,5
+Google Search - Warehousing Brand,0.273,0.276,-0.003,3,8
+LinkedIn ABM Retargeting,0.182,0.207,-0.025,2,6
+Customer Reference Call Program,0.0,0.103,-0.103,0,3
+
+-- By Campaign Type --
+Campaign_Type,Won_Presence_Rate,Lost_Presence_Rate,Gap,Won_Count,Lost_Count
+Interactive Tool,1.0,0.138,0.862,11,4
+Webinar,1.0,0.138,0.862,11,4
+Demo Request,1.0,0.207,0.793,11,6
+Content Syndication,0.818,0.414,0.404,9,12
+ABM Direct Mail,0.545,0.172,0.373,6,5
+Trade Show,0.455,0.138,0.317,5,4
+Referral,0.364,0.138,0.226,4,4
+Paid Search,0.545,0.379,0.166,6,11
+Case Study,0.364,0.241,0.122,4,7
+Email Nurture,0.182,0.172,0.009,2,5
+Paid Social,0.182,0.207,-0.025,2,6
+Reference Program,0.0,0.103,-0.103,0,3

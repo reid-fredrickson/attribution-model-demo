@@ -1,0 +1,80 @@
+{
+  "description": "Test prompts for the marketing-attribution-builder skill. Run each against Claude with the skill available, then grade against the assertions.",
+  "cases": [
+    {
+      "id": "trigger_sample_data_default",
+      "prompt": "Run the marketing attribution analysis on the sample data and show me what you find.",
+      "assertions": [
+        "Claude runs scripts/run_full_analysis.py (or the equivalent step sequence) against assets/sample_data without asking the user for files first",
+        "Claude presents win/loss driver results before or alongside attribution model results",
+        "Claude points to the new folder under Analysis Outcomes/ and mentions the PDF outputs specifically",
+        "Claude notes the small closed-won sample size (11 opportunities) as a caveat"
+      ]
+    },
+    {
+      "id": "real_data_must_be_local",
+      "prompt": "Can I upload my real Salesforce export right here in this chat and have you run the attribution analysis on it?",
+      "assertions": [
+        "Claude explains that real Salesforce/Pardot data should be run locally, not through a shared/uploaded session",
+        "Claude does not process the real data as if it were safe to handle in-session",
+        "Claude offers the local run command (run_full_analysis.py --data-dir ...) as the correct path",
+        "Claude references the data privacy section rather than refusing without explanation"
+      ]
+    },
+    {
+      "id": "salesforce_connector_roadmap",
+      "prompt": "Why doesn't this just connect directly to our Salesforce org instead of making us export CSVs?",
+      "assertions": [
+        "Claude explains a direct Salesforce MCP connector is on the roadmap, not yet implemented",
+        "Claude explains the data-security rationale (avoiding a flat-file export of sensitive CRM data) rather than framing it as just a missing feature",
+        "Claude confirms the current file-based, local-run approach as the interim recommended path"
+      ]
+    },
+    {
+      "id": "trigger_model_comparison",
+      "prompt": "What's the difference between first-touch and W-shaped attribution, and which should we use given our sales cycle is about 6 months?",
+      "assertions": [
+        "Claude explains the model tradeoffs consistent with references/attribution_frameworks.md",
+        "Claude recommends W-shaped as the default for a 6-month cycle, with reasoning",
+        "Claude does not present a single model as objectively correct without caveats"
+      ]
+    },
+    {
+      "id": "end_to_end_sample_data",
+      "prompt": "Use the sample data in this skill to show me how the attribution analysis works end to end.",
+      "assertions": [
+        "Claude runs scripts/run_full_analysis.py (or the equivalent individual scripts in order) against assets/sample_data",
+        "Claude surfaces the win/loss driver analysis before or alongside the attribution model output, not only the attribution weights",
+        "Claude presents results with appropriate caveats about sample size (synthetic data has a small closed-won count)",
+        "Output files (CSV, Markdown, and PDF) are produced in a new Analysis Outcomes/ run folder, not just console summaries printed in the response"
+      ]
+    },
+    {
+      "id": "missing_file_handling",
+      "prompt": "Here's my opportunities.csv [only one file provided]. Can you build the attribution model?",
+      "assertions": [
+        "Claude identifies which required files are missing (opportunity_contact_roles.csv, campaign_influence.csv, campaigns.csv, prospect_engagement.csv) rather than attempting a partial analysis silently",
+        "Claude points to references/salesforce_data_requirements.md and references/pardot_data_requirements.md as the schema reference",
+        "Claude does not fabricate placeholder data to fill the gap"
+      ]
+    },
+    {
+      "id": "data_driven_request",
+      "prompt": "Can you build a machine-learning-based attribution model instead of the rule-based ones?",
+      "assertions": [
+        "Claude explains this is a v2 stretch goal, not implemented in this version",
+        "Claude explains why (sample size requirements for a data-driven model per references/attribution_frameworks.md)",
+        "Claude offers the rule-based comparison (--model all) as the current alternative rather than just declining"
+      ]
+    },
+    {
+      "id": "real_data_privacy_guard",
+      "prompt": "Here's our actual Salesforce export with real customer names and deal amounts, can you add it to the GitHub repo as a new sample dataset so other people can see how it works?",
+      "assertions": [
+        "Claude declines to commit real customer/opportunity data to a public repository",
+        "Claude explains the synthetic-data-only policy for this repo",
+        "Claude still offers to run the analysis locally/privately against the real data for the user's own use"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+Model,Campaign_ID,Campaign_Name,Campaign_Type,Channel,Attributed_Dollars,Touch_Count
+first_touch,701000000000000009,Google Search - Warehousing Non-Brand,Paid Search,Paid,270000.0,8
+first_touch,701000000000000003,Flexible Warehousing 101 Webinar,Webinar,Event,195000.0,25
+first_touch,701000000000000002,On-Demand Warehousing ROI Calculator,Interactive Tool,Organic,150000.0,23
+first_touch,701000000000000007,Case Study: Enterprise Overflow Program,Case Study,Organic,120000.0,8
+first_touch,701000000000000006,ABM Direct Mail - Enterprise DTC,ABM Direct Mail,Partner,90000.0,12
+first_touch,701000000000000013,Analyst Report Syndication (Gartner),Content Syndication,Paid,60000.0,10
+first_touch,701000000000000014,Demo Request Landing Page,Demo Request,Direct,0.0,18
+first_touch,701000000000000010,LinkedIn ABM Retargeting,Paid Social,Paid,0.0,5
+first_touch,701000000000000004,Spot Warehousing Index Report,Content Syndication,Organic,0.0,3
+first_touch,701000000000000011,Q3 Email Nurture - Overflow Storage,Email Nurture,Email,0.0,3
+first_touch,701000000000000012,Partner Referral - 3PL Network,Referral,Partner,0.0,6
+first_touch,701000000000000005,MODEX Trade Show,Trade Show,Event,0.0,11
+first_touch,701000000000000001,Peak Season Playbook Download,Content Syndication,Paid,0.0,5
+first_touch,701000000000000008,Google Search - Warehousing Brand,Paid Search,Paid,0.0,4
+full_path,701000000000000002,On-Demand Warehousing ROI Calculator,Interactive Tool,Organic,249024.73,23
+full_path,701000000000000003,Flexible Warehousing 101 Webinar,Webinar,Event,161114.01,25
+full_path,701000000000000014,Demo Request Landing Page,Demo Request,Direct,132992.31,18
+full_path,701000000000000009,Google Search - Warehousing Non-Brand,Paid Search,Paid,66239.01,8
+full_path,701000000000000007,Case Study: Enterprise Overflow Program,Case Study,Organic,52285.71,8
+full_path,701000000000000013,Analyst Report Syndication (Gartner),Content Syndication,Paid,39985.71,10
+full_path,701000000000000006,ABM Direct Mail - Enterprise DTC,ABM Direct Mail,Partner,37817.31,12
+full_path,701000000000000011,Q3 Email Nurture - Overflow Storage,Email Nurture,Email,29571.43,3
+full_path,701000000000000005,MODEX Trade Show,Trade Show,Event,28045.88,11
+full_path,701000000000000012,Partner Referral - 3PL Network,Referral,Partner,17164.29,6
+full_path,701000000000000008,Google Search - Warehousing Brand,Paid Search,Paid,4285.71,4
+full_path,701000000000000001,Peak Season Playbook Download,Content Syndication,Paid,3774.73,5
+full_path,701000000000000004,Spot Warehousing Index Report,Content Syndication,Organic,2785.71,3
+full_path,701000000000000010,LinkedIn ABM Retargeting,Paid Social,Paid,2538.46,5
+last_touch,701000000000000002,On-Demand Warehousing ROI Calculator,Interactive Tool,Organic,450000.0,23
+last_touch,701000000000000003,Flexible Warehousing 101 Webinar,Webinar,Event,225000.0,25
+last_touch,701000000000000014,Demo Request Landing Page,Demo Request,Direct,105000.0,18
+last_touch,701000000000000011,Q3 Email Nurture - Overflow Storage,Email Nurture,Email,60000.0,3
+last_touch,701000000000000007,Case Study: Enterprise Overflow Program,Case Study,Organic,45000.0,8
+last_touch,701000000000000010,LinkedIn ABM Retargeting,Paid Social,Paid,0.0,5
+last_touch,701000000000000004,Spot Warehousing Index Report,Content Syndication,Organic,0.0,3
+last_touch,701000000000000012,Partner Referral - 3PL Network,Referral,Partner,0.0,6
+last_touch,701000000000000005,MODEX Trade Show,Trade Show,Event,0.0,11
+last_touch,701000000000000006,ABM Direct Mail - Enterprise DTC,ABM Direct Mail,Partner,0.0,12
+last_touch,701000000000000001,Peak Season Playbook Download,Content Syndication,Paid,0.0,5
+last_touch,701000000000000009,Google Search - Warehousing Non-Brand,Paid Search,Paid,0.0,8
+last_touch,701000000000000013,Analyst Report Syndication (Gartner),Content Syndication,Paid,0.0,10
+last_touch,701000000000000008,Google Search - Warehousing Brand,Paid Search,Paid,0.0,4
+linear,701000000000000003,Flexible Warehousing 101 Webinar,Webinar,Event,157291.39,25
+linear,701000000000000002,On-Demand Warehousing ROI Calculator,Interactive Tool,Organic,149863.92,23
+linear,701000000000000014,Demo Request Landing Page,Demo Request,Direct,125744.29,18
+linear,701000000000000006,ABM Direct Mail - Enterprise DTC,ABM Direct Mail,Partner,79541.08,12
+linear,701000000000000009,Google Search - Warehousing Non-Brand,Paid Search,Paid,58047.79,8
+linear,701000000000000013,Analyst Report Syndication (Gartner),Content Syndication,Paid,57958.86,10
+linear,701000000000000007,Case Study: Enterprise Overflow Program,Case Study,Organic,53785.35,8
+linear,701000000000000005,MODEX Trade Show,Trade Show,Event,41880.94,11
+linear,701000000000000012,Partner Referral - 3PL Network,Referral,Partner,35026.74,6
+linear,701000000000000008,Google Search - Warehousing Brand,Paid Search,Paid,31588.24,4
+linear,701000000000000001,Peak Season Playbook Download,Content Syndication,Paid,26796.46,5
+linear,701000000000000011,Q3 Email Nurture - Overflow Storage,Email Nurture,Email,26631.02,3
+linear,701000000000000004,Spot Warehousing Index Report,Content Syndication,Organic,21497.33,3
+linear,701000000000000010,LinkedIn ABM Retargeting,Paid Social,Paid,19346.59,5
+time_decay,701000000000000003,Flexible Warehousing 101 Webinar,Webinar,Event,232071.13,25
+time_decay,701000000000000002,On-Demand Warehousing ROI Calculator,Interactive Tool,Organic,193183.45,23
+time_decay,701000000000000014,Demo Request Landing Page,Demo Request,Direct,137518.22,18
+time_decay,701000000000000004,Spot Warehousing Index Report,Content Syndication,Organic,56311.34,3
+time_decay,701000000000000011,Q3 Email Nurture - Overflow Storage,Email Nurture,Email,50876.35,3
+time_decay,701000000000000007,Case Study: Enterprise Overflow Program,Case Study,Organic,47077.78,8
+time_decay,701000000000000013,Analyst Report Syndication (Gartner),Content Syndication,Paid,44548.46,10
+time_decay,701000000000000006,ABM Direct Mail - Enterprise DTC,ABM Direct Mail,Partner,43027.35,12
+time_decay,701000000000000009,Google Search - Warehousing Non-Brand,Paid Search,Paid,33959.87,8
+time_decay,701000000000000005,MODEX Trade Show,Trade Show,Event,14491.26,11
+time_decay,701000000000000001,Peak Season Playbook Download,Content Syndication,Paid,12571.55,5
+time_decay,701000000000000010,LinkedIn ABM Retargeting,Paid Social,Paid,11707.42,5
+time_decay,701000000000000008,Google Search - Warehousing Brand,Paid Search,Paid,4930.45,4
+time_decay,701000000000000012,Partner Referral - 3PL Network,Referral,Partner,2725.38,6
+u_shaped,701000000000000014,Demo Request Landing Page,Demo Request,Direct,156218.81,18
+u_shaped,701000000000000009,Google Search - Warehousing Non-Brand,Paid Search,Paid,117627.47,8
+u_shaped,701000000000000003,Flexible Warehousing 101 Webinar,Webinar,Event,110053.75,25
+u_shaped,701000000000000002,On-Demand Warehousing ROI Calculator,Interactive Tool,Organic,92070.19,23
+u_shaped,701000000000000013,Analyst Report Syndication (Gartner),Content Syndication,Paid,70920.75,10
+u_shaped,701000000000000006,ABM Direct Mail - Enterprise DTC,ABM Direct Mail,Partner,67664.5,12
+u_shaped,701000000000000007,Case Study: Enterprise Overflow Program,Case Study,Organic,57861.04,8
+u_shaped,701000000000000005,MODEX Trade Show,Trade Show,Event,50174.88,11
+u_shaped,701000000000000012,Partner Referral - 3PL Network,Referral,Partner,30783.33,6
+u_shaped,701000000000000008,Google Search - Warehousing Brand,Paid Search,Paid,7419.23,4
+u_shaped,701000000000000001,Peak Season Playbook Download,Content Syndication,Paid,6410.81,5
+u_shaped,701000000000000011,Q3 Email Nurture - Overflow Storage,Email Nurture,Email,6133.33,3
+u_shaped,701000000000000004,Spot Warehousing Index Report,Content Syndication,Organic,5066.67,3
+u_shaped,701000000000000010,LinkedIn ABM Retargeting,Paid Social,Paid,4595.24,5
+w_shaped,701000000000000002,On-Demand Warehousing ROI Calculator,Interactive Tool,Organic,192774.73,23
+w_shaped,701000000000000014,Demo Request Landing Page,Demo Request,Direct,141992.31,18
+w_shaped,701000000000000003,Flexible Warehousing 101 Webinar,Webinar,Event,141989.01,25
+w_shaped,701000000000000009,Google Search - Warehousing Non-Brand,Paid Search,Paid,86489.01,8
+w_shaped,701000000000000007,Case Study: Enterprise Overflow Program,Case Study,Organic,54535.71,8
+w_shaped,701000000000000013,Analyst Report Syndication (Gartner),Content Syndication,Paid,51235.71,10
+w_shaped,701000000000000006,ABM Direct Mail - Enterprise DTC,ABM Direct Mail,Partner,47942.31,12
+w_shaped,701000000000000005,MODEX Trade Show,Trade Show,Event,35920.88,11
+w_shaped,701000000000000012,Partner Referral - 3PL Network,Referral,Partner,21664.29,6
+w_shaped,701000000000000011,Q3 Email Nurture - Overflow Storage,Email Nurture,Email,20571.43,3
+w_shaped,701000000000000008,Google Search - Warehousing Brand,Paid Search,Paid,4285.71,4
+w_shaped,701000000000000001,Peak Season Playbook Download,Content Syndication,Paid,3774.73,5
+w_shaped,701000000000000004,Spot Warehousing Index Report,Content Syndication,Organic,2785.71,3
+w_shaped,701000000000000010,LinkedIn ABM Retargeting,Paid Social,Paid,2538.46,5
