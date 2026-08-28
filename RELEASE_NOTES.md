@@ -2,10 +2,6 @@
 
 ## v1.1-alpha — Bug fixes
 
-- Removed a stray trailing heading left over at the end of README.md.
-
-No functional or scope changes from v1.0; see below for what the model does and how it's meant to be used.
-
 **Status: alpha.** This release is a general rule-based attribution framework, not yet validated against a live Salesforce/Pardot org and **not intended for production use**. Treat output as directional until the documented field schema (`references/salesforce_data_requirements.md`, `references/pardot_data_requirements.md`) has been confirmed against a real org and the pipeline has been run against real closed-won data.
 
 ## v1.0 — Initial release
