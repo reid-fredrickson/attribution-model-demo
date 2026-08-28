@@ -104,7 +104,7 @@ tests/eval_cases.json               Test prompts for validating the skill's beha
 
 ## Status
 
-**v1 (current):** rule-based attribution models (first-touch through full-path), file-upload only, runs on bundled sample data out of the box, PDF + Markdown + CSV outputs organized into `Analysis Outcomes/`.
+**v1.1-alpha (current):** rule-based attribution models (first-touch through full-path), file-upload only, runs on bundled sample data out of the box, PDF + Markdown + CSV outputs organized into `Analysis Outcomes/`. Not yet validated against a live org; see RELEASE_NOTES.md.
 
 **Planned:**
 - Direct Salesforce MCP connector, replacing manual CSV export for data-security reasons (see Roadmap above)
