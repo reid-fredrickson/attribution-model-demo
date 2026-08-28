@@ -116,4 +116,3 @@ Field names in `references/*_data_requirements.md` are built from the documented
 ## License
 
 See LICENSE.
-# attribution-modeling
